@@ -1,0 +1,19 @@
+main{
+    display: flex;
+    align-items: center;
+    overflow-y: auto;
+}
+
+
+@media(min-width:768px) {
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 40px;
+        margin-top: 10px;
+        width: 70vw;
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
+}
